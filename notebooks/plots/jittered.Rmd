@@ -38,7 +38,7 @@ df <-
 
 Firstly, let's create a plot with all observations and their means. 
 
-```{r}
+```{r, fig.width=7, fig.height=3.5}
 # points with mean
 df %>%
   ggplot(aes(sample_name, expression, color = gene_id)) +
@@ -61,7 +61,7 @@ The default ggplot `geom_boxplot()` will show upper quartile, median and lower q
 
 Additionally, since we are plotting the data under the boxplot, there is no need for us to show the outliers, so we are setting `outlier.shape = NA`.
 
-```{r}
+```{r, fig.width=7, fig.height=3.5}
 # points with boxplot
 df %>%
   ggplot(aes(sample_name, expression, color = gene_id)) +
