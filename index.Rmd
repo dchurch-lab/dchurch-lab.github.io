@@ -1,15 +1,19 @@
 ---
-title: "Welcome to Church group @ Oxford"
-subtitle: "Wellome Centre for Human Genetics"
+title: "Welcome to Church group @ Oxford's notes"
+subtitle: "Random resources we share within the group"
 output:
-  rmarkdown::html_document:
-    theme: lumen
+  prettydoc::html_pretty:
+    theme: architect
 ---
 
-Welcome to the Church website. You can find here the code and resources we share within the group. With time, hopefully, this website will grow in content. 
+Welcome to the Church group's notes website. Yes, that's right, the website describing the research in the group is located on the [Wellcome Center for Human Genetics server](https://www.well.ox.ac.uk/research/research-groups/church-group). 
 
-# Plots
+Here, you can find the code and resources we share within the group. With time, hopefully, this website will grow in content. 
+
+# Notebooks
+
+## Plots
 
 On this list, you can find links to short notebooks with code describing the examples of plots in each "genre". Enjoy!
 
-* [jittered points with boxplots](./notebooks/plots/jittered.html)
+* [Jittered points with boxplots](./notebooks/plots/jittered.html)

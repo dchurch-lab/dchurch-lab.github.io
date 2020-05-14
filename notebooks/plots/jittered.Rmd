@@ -38,6 +38,7 @@ df <-
 Firstly, let's create a plot with all observations and their means. 
 
 ```{r}
+set.seed(7)
 # points with mean
 df %>%
   ggplot(aes(sample_name, expression, color = gene_id)) +
