@@ -1,0 +1,15 @@
+---
+title: "Welcome to Church group @ Oxford"
+subtitle: "Wellome Centre for Human Genetics"
+output:
+  rmarkdown::html_document:
+    theme: lumen
+---
+
+Welcome to the Church website. You can find here the code and resources we share within the group. With time, hopefully, this website will grow in content. 
+
+# Plots
+
+On this list, you can find links to short notebooks with code describing the examples of plots in each "genre". Enjoy!
+
+* [jittered points with boxplots](./notebooks/plots/jittered.html)
