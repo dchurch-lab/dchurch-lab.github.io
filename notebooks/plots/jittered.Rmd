@@ -23,6 +23,7 @@ theme_update(legend.position = "bottom")
 Now, let's create a simulated data to recreate the plots.
 
 ```{r}
+set.seed(7)
 df <- 
   data.frame(
     sample_name = c(rep("sample_A", 15), rep("sample_B", 5)),
@@ -38,7 +39,6 @@ df <-
 Firstly, let's create a plot with all observations and their means. 
 
 ```{r}
-set.seed(7)
 # points with mean
 df %>%
   ggplot(aes(sample_name, expression, color = gene_id)) +
